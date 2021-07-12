@@ -21,7 +21,7 @@
 
     let $$ = jQuery.noConflict();
 
-    let cutil = {
+    let util = {
         clog(c) {
             console.group(`[${scriptName}]`);
             console.log(c);
@@ -118,4 +118,8 @@
             debugger;
         }
     }, true);
+	
+	return {
+		cutil: util
+	};
 })();
