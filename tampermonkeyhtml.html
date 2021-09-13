@@ -48,17 +48,27 @@
         #wabbajack ul {
             white-space: pre;
         }
+
         .span-green {
-            color:green;
+            color: green;
         }
+
         .span-red {
-            color:red;
+            color: red;
         }
+
         .span-blue {
-            color:blue;
+            color: blue;
         }
+
         .span-orange {
             color: orange;
+        }
+
+        ul.loading {
+            background: url('https://img.lanrentuku.com/img/allimg/1212/5-121204193R5-50.gif') no-repeat;
+            background-size: 22px 22px;
+            background-position: 80%;
         }
     </style>
     <nav>
@@ -70,7 +80,7 @@
                 <a href="JavaScript:void (0)">主链接二</a>
             </li>
             <li>
-                <a onclick="return false"href="tampermonkeyhtml.html">主链接三</a>
+                <a onclick="return false" href="tampermonkeyhtml.html">主链接三</a>
             </li>
         </ul>
     </nav>
@@ -90,19 +100,19 @@
         <section id="sign">
             <h2>签到</h2>
             <p>
-                <div><input type="button" value="签到" /></div>
+            <div><input type="button" value="签到" /></div>
             </p>
         </section>
         <section id="wabbajack">
             <h2>Wabbajack Log</h2>
             <p>
-                <div><input id="wabbajack-upload" type="file" accept=".log,.txt" /></div>
+            <div><input id="wabbajack-upload" type="file" accept=".log,.txt" /></div>
             </p>
         </section>
         <section id="hash">
             <h2>Hash</h2>
             <p>
-                <div><input id="hash-upload" type="file" accept="*" /></div>
+            <div><input id="hash-upload" type="file" accept="*" /></div>
             </p>
         </section>
     </article>
